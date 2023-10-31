@@ -1,28 +1,45 @@
-# Bulb On-Off
+# Bulb On/Off - Static Website
 
-1. index.html
-This is the main HTML file of the website. It defines the structure and content of the web page. It includes the following elements:
+![Bulb On/Off](imgOfBulb.png)
 
-A table containing an image of a bulb, an on/off button, and a description.
-The <script> tag at the end of the file links to the JavaScript file script.js.
-2. script.js
-The JavaScript file contains a function handleEvent() that is responsible for changing the state of the light bulb when the "On/Off" button is clicked. When the button is clicked, it toggles the bulb image between on and off, changes the button text, and updates the button's background color accordingly.
+This is a simple static website that allows you to switch a light bulb on and off with the click of a button. The website is built using HTML, CSS, and JavaScript.
 
-3. style.css
-The CSS file defines the styling for the website. It sets the background color and styling for the "On/Off" button and ensures that the content is centered within the table cells.
+## Table of Contents
 
-Usage
-To use this static website, follow these steps:
+- [Demo](#demo)
+- [Features](#features)
+- [Usage](#usage)
+- [Customization](#customization)
+- [License](#license)
 
-Download the provided HTML, JavaScript, and CSS files to your computer.
+## Demo
+
+You can check out the live demo of the website here: [Bulb On/Off Demo](https://your-demo-link-here)
+
+## Features
+
+- Toggle a light bulb on and off by clicking the "On/Off" button.
+- The button text and background color change to indicate the bulb's state.
+- Simple and clean user interface.
+
+## Usage
+
+1. Clone this repository to your local machine:
+
+```bash
+git clone https://github.com/yourusername/bulb-on-off.git
+```
 
 Open the index.html file in a web browser.
 
-You will see an image of a bulb, an "On" button, and a description. Click the "On/Off" button to switch the light bulb on and off.
+Click the "On/Off" button to switch the light bulb on and off.
 
-Observe how the button text and background color change to indicate the state of the bulb.
+Observe how the button text and background color change to reflect the bulb's state.
 
-Customization
-You can customize this static website by making changes to the CSS to adjust the styling or by replacing the bulb images with your own.
+##Customization
+You can customize this static website in various ways:
 
-Feel free to modify and expand this website as needed for your specific use case. Enjoy experimenting with this simple interactive web page!
+Modify the CSS in style.css to change the website's styling.
+Replace the off.png and on.png images with your own images.
+Feel free to make any changes to fit your specific needs or experiment with different designs and functionalities.
+
